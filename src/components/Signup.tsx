@@ -41,7 +41,7 @@ export default function Signup() {
           <img
             src="/images/Polygon1.svg"
             alt="shape1"
-            className="absolute top-[40%] right-0 w-[100px] h-[100px] opacity-70"
+            className="absolute top-[40%] right-0 md:w-[100px] w-[70px] md:h-[100px] h-[70px] opacity-70"
           />
           <img
             src="/images/Polygon2.svg"
