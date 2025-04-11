@@ -7,7 +7,7 @@ export default function Signup() {
   return (
     <div className="min-h-screen relative flex overflow-hidden items-center justify-center bg-[#f0f4f3] p-4">
       {/* Red Box */}
-      <div className="absolute top-0 right-[-2rem] w-[310.85px] h-[388px] z-0">
+      <div className="absolute top-0 right-[-2rem] md:w-[310.85px] w-[250px] h-[388px] z-0">
         <Image
           src="/images/red-box.png"
           fill
@@ -17,7 +17,7 @@ export default function Signup() {
       </div>
 
       {/* Yellow Ellipse */}
-      <div className="absolute bottom-0 left-0 w-[225px] h-[250px] z-0 opacity-[.9]">
+      <div className="absolute bottom-0 left-0 md:w-[225px] w-[180px] h-[250px] z-0 opacity-[.9]">
         <Image
           src="/images/yellow-ellipse.png"
           fill
@@ -61,7 +61,7 @@ export default function Signup() {
            <img
             src="/images/circle2.png"
             alt="shape3"
-            className="absolute bottom-0 left-[-2rem] md:w-[190px] w-[60px] md:h-[190px] h-[100px] opacity-70"
+            className="absolute bottom-0 left-[-2rem] md:w-[190px] w-[90px] md:h-[190px] h-[100px] opacity-70"
           />
         </div>
 
