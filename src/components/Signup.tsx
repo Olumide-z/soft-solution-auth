@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Signup() {
   return (
-    <div className="min-h-screen relative flex overflow-hidden items-center justify-center bg-[#f0f4f3] p-4">
+    <div className="h-screen relative flex overflow-hidden items-center justify-center bg-[#f0f4f3] p-4">
       {/* Red Box */}
       <div className="absolute top-0 right-[-2rem] md:w-[310.85px] w-[250px] h-[388px] z-0">
         <Image
@@ -17,7 +17,7 @@ export default function Signup() {
       </div>
 
       {/* Yellow Ellipse */}
-      <div className="absolute bottom-0 left-0 md:w-[225px] w-[180px] md:h-[250px] h-[160px] z-0 opacity-[.9]">
+      <div className="absolute bottom-0 left-0 md:w-[225px] w-[180px] h-[250px] z-0 opacity-[.9]">
         <Image
           src="/images/yellow-ellipse.png"
           fill
