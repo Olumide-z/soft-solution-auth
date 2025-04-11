@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Signup() {
   return (
-    <div className="h-screen relative flex overflow-hidden items-center justify-center bg-[#f0f4f3] p-4">
+    <div className="min-h-screen relative flex overflow-hidden items-center justify-center bg-[#f0f4f3] p-4">
       {/* Red Box */}
       <div className="absolute top-0 right-[-2rem] md:w-[310.85px] w-[250px] h-[388px] z-0">
         <Image
