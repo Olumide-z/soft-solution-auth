@@ -21,7 +21,7 @@ export default function Signup() {
         <Image
           src="/images/yellow-ellipse.png"
           fill
-          className="object-cover"
+          className="md:object-cover object-contain"
           alt="Yellow Ellipse"
         />
       </div>
