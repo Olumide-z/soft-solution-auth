@@ -17,7 +17,7 @@ export default function Signup() {
       </div>
 
       {/* Yellow Ellipse */}
-      <div className="absolute bottom-0 left-0 md:w-[225px] w-[180px] h-[250px] z-0 opacity-[.9]">
+      <div className="absolute bottom-0 left-0 md:w-[225px] w-[180px] md:h-[250px] h-[160px] z-0 opacity-[.9]">
         <Image
           src="/images/yellow-ellipse.png"
           fill
